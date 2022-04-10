@@ -1,0 +1,153 @@
+contract_balance: "185000001"
+phases:
+  - round_name: SEED
+    starting_at: 2022-01-01T00:00:00+00:00 # Time when launch the vesting period
+    cliff:
+      delay: 6 # minutes
+      percent: 5
+    slice:
+      periods: 12
+      interval: 5 # minutes per each interval
+    accounts:
+      - address: "0x84EFdA9e7A2b32f4ef6692FDC1316Bcf668EBC63"
+        tokens: 12632000
+      - address: "0xBFF76e3d07A045D92a8CD9ab3471E4874d52F102"
+        tokens: 12331250
+      - address: "0x9D1c2bEE22d96Ddc9C9Dddb6f0Fcd66E76261cd9"
+        tokens: 15000000
+      - address: "0xBA9a7Cf70F6861652cC909F968216BbA05B0DE5c"
+        tokens: 10000000
+      - address: "0x140dA41afB80005faD9955d747101A012132cFAe"
+        tokens: 35000000
+
+  - round_name: PRIVATE A
+    starting_at: 2022-01-01T00:00:00+00:00 # Time when launch the vesting period
+    cliff:
+      delay: 4 # minutes
+      percent: 7.5
+    slice:
+      periods: 11
+      interval: 5 # minutes per each interval
+    accounts:
+      - address: "0x84EFdA9e7A2b32f4ef6692FDC1316Bcf668EBC63"
+        tokens: 15000000
+      - address: "0xBFF76e3d07A045D92a8CD9ab3471E4874d52F102"
+        tokens: 8363000
+      - address: "0xeEF88Be01E63E25e9B880c381429B160bb87E5A7"
+        tokens: 10000000
+      - address: "0x866BeecAf3Ef61D60581dE2666Ec70F644d4506D"
+        tokens: 5000000
+      - address: "0x8732037991bC2D88C6764F1eeDD3879bf4DF87a9"
+        tokens: 5500000
+
+  - round_name: PRIVATE B
+    starting_at: 2022-01-01T00:00:00+00:00 # Time when launch the vesting period
+    cliff:
+      delay: 2 # minutes
+      percent: 10
+    slice:
+      periods: 10
+      interval: 5 # minutes per each interval
+    accounts:
+      - address: "0x84EFdA9e7A2b32f4ef6692FDC1316Bcf668EBC63"
+        tokens: 30000000
+      - address: "0xBFF76e3d07A045D92a8CD9ab3471E4874d52F102"
+        tokens: 9090909.09
+
+  - round_name: IDO
+    starting_at: 2022-01-01T00:00:00+00:00 # Time when launch the vesting period
+    cliff:
+      delay: 0 # minutes
+      percent: 20
+    slice:
+      periods: 8
+      interval: 3 # minutes per each interval
+    accounts:
+      - address: "0x84EFdA9e7A2b32f4ef6692FDC1316Bcf668EBC63"
+        tokens: 7000000
+      - address: "0xBFF76e3d07A045D92a8CD9ab3471E4874d52F102"
+        tokens: 11538461.54
+
+  - round_name: TEAM
+    starting_at: 2022-01-01T00:00:00+00:00 # Time when launch the vesting period
+    cliff:
+      delay: 12 # minutes
+      percent: 0
+    slice:
+      periods: 730
+      interval: 0.1 # minutes per each interval
+    accounts:
+      - address: "0x84EFdA9e7A2b32f4ef6692FDC1316Bcf668EBC63"
+        tokens: 1000000
+      - address: "0xBFF76e3d07A045D92a8CD9ab3471E4874d52F102"
+        tokens: 1234567.89
+
+  - round_name: COM/AIRDROP
+    starting_at: 2022-01-01T00:00:00+00:00 # Time when launch the vesting period
+    cliff:
+      delay: 1 # minutes
+      percent: 0
+    slice:
+      periods: 12
+      interval: 1 # minutes per each interval
+    accounts:
+      - address: "0x84EFdA9e7A2b32f4ef6692FDC1316Bcf668EBC63"
+        tokens: 1000000
+      - address: "0xBFF76e3d07A045D92a8CD9ab3471E4874d52F102"
+        tokens: 1234567.89
+
+  - round_name: ADVISORS
+    starting_at: 2022-01-01T00:00:00+00:00 # Time when launch the vesting period
+    cliff:
+      delay: 6 # minutes
+      percent: 0
+    slice:
+      periods: 18
+      interval: 1 # minutes per each interval
+    accounts:
+      - address: "0x84EFdA9e7A2b32f4ef6692FDC1316Bcf668EBC63"
+        tokens: 1000000
+      - address: "0xBFF76e3d07A045D92a8CD9ab3471E4874d52F102"
+        tokens: 1234567.89
+
+  - round_name: REWARDS
+    starting_at: 2022-01-01T00:00:00+00:00 # Time when launch the vesting period
+    cliff:
+      delay: 3 # minutes
+      percent: 10
+    slice:
+      periods: 1
+      interval: 48 # minutes per each interval
+    accounts:
+      - address: "0x84EFdA9e7A2b32f4ef6692FDC1316Bcf668EBC63"
+        tokens: 1000000
+      - address: "0xBFF76e3d07A045D92a8CD9ab3471E4874d52F102"
+        tokens: 1234567.89
+
+  - round_name: OPERATIONS
+    starting_at: 2022-01-01T00:00:00+00:00 # Time when launch the vesting period
+    cliff:
+      delay: 3 # minutes
+      percent: 0
+    slice:
+      periods: 8
+      interval: 3 # minutes per each interval
+    accounts:
+      - address: "0x84EFdA9e7A2b32f4ef6692FDC1316Bcf668EBC63"
+        tokens: 1000000
+      - address: "0xBFF76e3d07A045D92a8CD9ab3471E4874d52F102"
+        tokens: 1234567.89
+
+  - round_name: DEVELOPMENT
+    starting_at: 2022-01-01T00:00:00+00:00 # Time when launch the vesting period
+    cliff:
+      delay: 12 # minutes
+      percent: 0
+    slice:
+      periods: 24
+      interval: 1 # minutes per each interval
+    accounts:
+      - address: "0x84EFdA9e7A2b32f4ef6692FDC1316Bcf668EBC63"
+        tokens: 1000000
+      - address: "0xBFF76e3d07A045D92a8CD9ab3471E4874d52F102"
+        tokens: 1234567.89
