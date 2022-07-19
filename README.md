@@ -13,8 +13,12 @@ Dzmitry Karachun [Linkein](https://www.linkedin.com/in/dzmitry-karachun/)
 
 1. AntiBol.sol
 2. BEP20.sol
-3. MultiSigWallet.sol
-4. Vesting.sol
+3. Marketplace.sol
+4. MultiSigWallet.sol
+5. NFT.sol
+6. StakeNFT.sol
+7. TokenOperations.sol
+8. Vesting.sol
 
 ## Sctipts:
 
