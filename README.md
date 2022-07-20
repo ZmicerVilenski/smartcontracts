@@ -8,6 +8,7 @@ Dzmitry Karachun [Linkein](https://www.linkedin.com/in/dzmitry-karachun/)
 
 1. NFT War Game
 2. fork-uniswap
+3. DAO Governance
 
 ## Contracts:
 
